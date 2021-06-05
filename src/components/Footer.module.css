@@ -1,0 +1,10 @@
+.container {
+  background-color: #333;
+  width: 100%;
+  padding: 20px 0px;
+  margin-top: 20px;
+  color: #ccc;
+}
+.copyright {
+  text-align: center;
+}

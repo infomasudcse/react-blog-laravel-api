@@ -1,18 +1,27 @@
+.navcontainer {
+  background-color: #333;
+}
+.logo {
+  width: 25%;
+  float: left;
+  color: white;
+  text-align: center;
+}
+.logo img {
+  border-radius: 50px;
+  height: 50px;
+}
 .navul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
 }
 
 .navul li {
   float: left;
   border-right: 1px solid #bbb;
-}
-
-.navli:last-child {
-  border-right: none;
+  border-left: 1px solid #bbb;
 }
 
 .navul li a {
@@ -27,6 +36,6 @@
   background-color: #111;
 }
 
-.navul li a.active {
+.navul li a .active {
   background-color: #04aa6d;
 }
